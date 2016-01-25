@@ -11,10 +11,15 @@ The project is to download all the images from the given URLs mentioned in a tex
 
 Running instructions
 
-> python [source_directory] [file_name]
+```sh
+$ python <sourceDirectory> <fileName>
+```
 
 > source_directory is the folder which contains the file in which urls are present
 
 Example
 
-> python ~/py url.txt
+```sh
+$ python ~/py url.txt
+```
+
