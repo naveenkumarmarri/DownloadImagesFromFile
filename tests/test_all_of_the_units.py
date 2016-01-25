@@ -1,6 +1,7 @@
 import os
 import shutil
 
+path = os.getcwd()
 if not os.path.exists(path+'/downloaded_pics'):
 		os.makedirs(path+'/downloaded_pics')
 else:		
