@@ -1,4 +1,4 @@
-import urllib2, os
+import os
 import shutil
 
 if not os.path.exists(path+'/downloaded_pics'):
