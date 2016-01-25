@@ -1,5 +1,5 @@
 import urllib2, os
-import shutil
+import shutil, sys
 
 def downloadImages(path, nameOfFile):
 	
@@ -40,6 +40,6 @@ def downloadImages(path, nameOfFile):
 	f.close()											#closing the filewriter
 
 if __name__ == "__main__":
-	path = ''								#mention the path where file which contains url is present
-	nameOfFile = 'url.txt'
+	path = sys.argv[1]								#mention the path where file which contains url is present
+	nameOfFile = sys.argv[2]						#argument to fetch the name of the file which contains urls
 	downloadImages(path, nameOfFile)
